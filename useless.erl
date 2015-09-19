@@ -4,7 +4,7 @@
 
 %% Choose what functions will be exported
 %% The notation name/2 is = function name with 2 parameters and all functions have this signature
--export([add/2, add/3, hello/0, greet_and_add_two/1]).
+-export([add/2, add/3, hello/0, greet_and_add_two/1, get_list_comprehension/0]).
 
 add(A, B) ->
 	A + B.
